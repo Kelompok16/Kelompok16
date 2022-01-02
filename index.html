@@ -481,19 +481,19 @@
     <h1>Get In Touch</h1>
     <div class="row">
     <div class="col-md-6">
-    <form action="phpmailer/index.php" method="post"></form> 
+    <form action="/sendmail.php" method="POST">
     <form class="contact-form">
     <div class="form-group">
-    <input type="text" class="form-control" placeholder="Your Name">    
+    <input name="nama" type="text" class="form-control" placeholder="Your Name">    
     </div>
     <div class="form-group">
-    <input type="number" class="form-control" placeholder="Phone no.">    
+    <input name="nomorhp" type="number" class="form-control" placeholder="Phone no.">    
     </div>
     <div class="form-group">
-    <input type="email" class="form-control" placeholder="Email id">    
+    <input name="mail" type="email" class="form-control" placeholder="Email id">    
     </div>
     <div class="form-group">
-    <textarea class="form-control" row="4" placeholder="Your Massage"></textarea>  </div>
+    <textarea name= "pesan" class="form-control" row="4" placeholder="Your Massage"></textarea>  </div>
     <button type="submit" class="btn btn-primary" style="float: right;">SEND </button>    
     </form>
     </div>
