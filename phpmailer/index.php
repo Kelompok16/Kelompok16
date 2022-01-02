@@ -4,9 +4,9 @@ require 'includes/PHPMailer.php';
 require 'includes/SMTP.php';
 require 'includes/Exception.php';
 //Define name spaces
-use PHPMailer/PHPMailer/PHPMailer;
-use PHPMailer/PHPMailer/SMTP;
-use PHPMailer/PHPMailer/Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 //Create instance of phpmailer
 $mail=new PHPMailer();
 //Set mailer to use smtp
